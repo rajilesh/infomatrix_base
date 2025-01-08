@@ -964,9 +964,18 @@ strong {
   pointer-events:all;
 }
 .logo{
-  width: 80px;;
+  width: 80px;
+  scale: 1.6;
 }
+.para{
 
+}
+.para img{
+  max-width: 50%;
+  margin-right:50px;
+  margin-bottom:30px;
+  float:left;
+}
 .our-services {
 }
 .our-services h2 {
@@ -1180,5 +1189,8 @@ strong {
   }
   .article {
     width: 100%;
+  }
+  .logo{
+    scale: 1;
   }
 }
